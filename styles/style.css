@@ -134,3 +134,32 @@ body{
     color: gold;
 
 }
+.contenedorWeCanHappy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: gold;
+}
+.textoWeCanHappyDerecho{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tituloContendorW{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.textoContendorW{
+    width: 50%;
+    font-size: 1.3rem;
+}
+

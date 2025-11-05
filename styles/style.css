@@ -138,8 +138,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     background-color: gold;
+    padding: 10px 50px;
 }
 .textoWeCanHappyDerecho{
     width: 40%;
@@ -162,4 +162,20 @@ body{
     width: 50%;
     font-size: 1.3rem;
 }
-
+.btnInicio2{
+    background-color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    color: white;
+    border: 0;
+    padding: 5px, 10px;
+    height: 50px;
+}
+.imagenWeCanHappy{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenIzquierdaWeCanHappy{
+    padding: 50px 20px;
+}

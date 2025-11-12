@@ -9,31 +9,31 @@ body{
     font-family: Arial, sans-serif;
 }
 
-.header{
+.cabecera{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 196, 4);
 }
 
-.logo img{
+.logotipo img{
     height: 50px;
     margin-left: 15px;
 }
 
-.nav{
+.navegacion{
     display: flex;
     gap: 15px;
     margin-right: 18px;
 }
 
-.nav a{
+.navegacion a{
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-.parte1{
+.seccion-principal{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,7 +41,7 @@ body{
     margin-top: 20px;
 }
 
-.principio{
+.introduccion{
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -55,7 +55,7 @@ body{
     margin-left: 150px;
 }
 
-.principio h2{
+.introduccion h2{
     font-size: 5em;
     color: #000;
     text-transform: uppercase;
@@ -63,7 +63,7 @@ body{
     margin-left: 200px;
 }
 
-.principio p{
+.introduccion p{
     font-size: 1.2em;
     color: #181717;
     width: 40%;
@@ -71,7 +71,7 @@ body{
     font-weight: bolder;
 }
 
-.principio a{
+.introduccion a{
     display: inline-block;
     padding: 10px 20px;
     background-color: rgb(255, 196, 4);
@@ -84,7 +84,7 @@ body{
     width: 20%;
 }
 
-.seccion{
+.apartado{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -100,12 +100,12 @@ body{
     box-shadow: 0 30px 60px rgba(0,0,0,0.1); 
 }
 
-.combinado{
+.contenido-combinado{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.combinado h2{
+.contenido-combinado h2{
     font-size: 3.2em;
     margin-left: 100px;
     margin-top: 10px;
@@ -114,7 +114,7 @@ body{
     width: 60%;
 }
 
-.combinado p{
+.contenido-combinado p{
     font-size: 1em;
     color: #181717;
     width: 45%;
@@ -122,14 +122,14 @@ body{
     font-weight: bolder;
 }
 
-.combinado a{
+.contenido-combinado a{
     color: black;
     text-decoration: none;
     font-weight: bold;
     margin-left: 100px;
 }
 
-.graficas{
+.graficos{
     display: flex;
     align-items: center;
     gap: 70px;
@@ -137,7 +137,7 @@ body{
     margin-bottom: 30px;
 }
 
-.parte2{
+.seccion-secundaria{
     display: flex;
     flex-direction: row;
     background-color: rgb(255, 196, 4);
@@ -148,7 +148,7 @@ body{
     z-index: 1;
 }
 
-.centro{
+.contenido-central{
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -156,22 +156,21 @@ body{
     margin-top: 200px;
 }
 
-.centro h2{
+.contenido-central h2{
     font-size: 3.5em;
     color: #000;
     text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
 }
 
-.centro p{
+.contenido-central p{
     font-size: 1em;
     color: #181717;
     width: 55%;
     font-weight: bolder;
 }
 
-.centro a{
+.contenido-central a{
     display: inline-block;
     padding: 10px 20px;
     background-color: #000;
@@ -183,25 +182,24 @@ body{
     width: 35%;
 }
 
-.imagen2{
+.imagen-secundaria{
     margin-right: 400px;
 }
 
-.imagen2 img{
+.imagen-secundaria img{
     width: 160%;
     height: auto;
     margin-top: 350px;
 }
 
-.parte3 {
+.seccion-terciaria {
     min-height: 900px; 
     display: flex;
     align-items: center; 
     justify-content: center; 
 }
 
-
-.part {
+.porcion {
     background-color: rgb(208, 218, 218);
     display: flex;
     flex-direction: row;
@@ -214,7 +212,7 @@ body{
     box-shadow: 0 30px 60px rgba(0,0,0,0.1);
 }
 
-.part .imagen3 img{
+.porcion .imagen-terciaria img{
     height: 90%;
 }
 
@@ -257,7 +255,7 @@ body{
     height: auto;
 }
 
-.part-abous{
+.seccion-nosotros{
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -267,7 +265,7 @@ body{
     min-height: 950px;
 }
 
-.part-abous h2{
+.seccion-nosotros h2{
     margin-top: 20px;
     font-size: 3em;
     color: rgb(255, 196, 4);
@@ -275,7 +273,7 @@ body{
     width: 100%;
 }
 
-.part-abous p{
+.seccion-nosotros p{
     margin-top: 20px;
     font-size: 1em;
     color: #fff;
@@ -283,13 +281,13 @@ body{
     font-weight: bolder;
 }   
 
-.part-abous img{
+.seccion-nosotros img{
     margin-top: 20px;
     width: 70%;
     height: auto;
 }
 
-.part-abous a{
+.seccion-nosotros a{
     display: inline-block;
     padding: 10px 20px;
     background-color: rgb(255, 196, 4);
@@ -313,7 +311,7 @@ body{
     margin-left: 80px;
 }
 
-.imagen5 img {
+.imagen-equipo img {
     width: 500px;
     height: auto;
     margin-left: 0; 
@@ -353,7 +351,7 @@ body{
     width: 30%;
 }
 
-.part-free{
+.seccion-gratuita{
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -361,14 +359,14 @@ body{
     min-height: 550px;
 }
 
-.texto2{
+.texto-secundario{
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-left: 80px;
 }
 
-.texto2 h2{
+.texto-secundario h2{
     font-size: 5em;
     color: #000;
     text-transform: uppercase;
@@ -376,14 +374,14 @@ body{
     margin-top: 60px;
 }
 
-.texto2 p{
+.texto-secundario p{
     font-size: 1em;
     color: #181717;
     width: 75%;
     font-weight: bolder;
 }
 
-.texto2 a{
+.texto-secundario a{
     display: inline-block;
     padding: 10px 20px;
     background-color: rgb(255, 196, 4);
@@ -395,14 +393,14 @@ body{
     width: 30%;
 }
 
-.part-subscribe {
+.seccion-suscripcion {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.datos {
+.formulario {
     width: 70%;
     max-width: 800px;
     background-color: #000;
@@ -412,18 +410,18 @@ body{
     margin-left: 90px;
 }
 
-.datos h3{
+.formulario h3{
     font-weight: lighter;
     margin-top: 30px;
 }
 
-.datos h3, .datos input,
-.datos textarea{
+.formulario h3, .formulario input,
+.formulario textarea{
     margin-left: 40px;
 }
 
-.datos input,
-.datos textarea {
+.formulario input,
+.formulario textarea {
     width: 70%;
     height: 40px;
     border: 2px solid white;
@@ -434,48 +432,48 @@ body{
     color: white;             
 }
 
-.name-surname{
+.nombre-apellido{
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-.name{
+.nombre{
     width: 80%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.surname{
+.apellido{
     width: 80%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.texto3 {
+.texto-suscripcion {
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-left: 80px;
 }
 
-.texto3 h2{
+.texto-suscripcion h2{
     font-size: 3.5em;
     color: rgb(255, 196, 4);
     text-transform: uppercase;
     width: 100%;
 }
 
-.texto3 p{
+.texto-suscripcion p{
     font-size: 1em;
     color: #181717;
     width: 75%;
     font-weight: bolder;
 }
 
-.texto3 a{
+.texto-suscripcion a{
     display: inline-block;
     padding: 10px 20px;
     background-color: #000;
@@ -530,7 +528,7 @@ body{
     margin-top: 20px;
 }
 
-.footer{
+.pie-pagina{
     display: flex;
     flex-direction: column;
     gap: 45px;
@@ -543,21 +541,21 @@ hr{
     margin-left: 60px;
 }
 
-.lista{
+.listas{
     display: flex;
     flex-direction: row;
     gap: 15px;
     margin-top: 20px;
 }
 
-.lista1, .lista2{
+.lista-enlaces, .lista-enlaces-secundaria{
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-left: 20px;
 }
 
-.lista1 a, .lista2 a{
+.lista-enlaces a, .lista-enlaces-secundaria a{
     color: rgb(255, 196, 4);
     text-decoration: none;
     font-weight: bold;
@@ -571,13 +569,13 @@ hr{
     margin-bottom: 40px;
 }
 
-.final1 p{
+.derechos p{
     font-size: 1em;
     color: rgb(255, 196, 4);
     font-weight: bold;
 }
 
-.final-img{
+.redes-sociales{
     display: flex;
     flex-direction: row;
     gap: 20px;
